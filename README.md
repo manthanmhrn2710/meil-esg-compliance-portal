@@ -1,11 +1,10 @@
-============================================================
-  BRSR-Report
-============================================================
+## Demo Accounts (RBAC Testing)
 
-  Server:  http://localhost:5000
+Use any of the pre-configured role accounts below to test the Role-Based Access Control workflows (Password for all accounts: `brsr@2026`):
 
-  Demo accounts (password: brsr@2026)
-    director@meil.com     - Group Admin
-    infra.esg@meil.com    - Subsidiary Admin
-    tunnel.lead@meil.com  - BU Reviewer
-    metro.hse@meil.com    - Project Officer
+| Role | Email | Password |
+| :--- | :--- | :--- |
+| **Group Admin** | `director@meil.com` | `brsr@2026` |
+| **Subsidiary Admin** | `infra.esg@meil.com` | `brsr@2026` |
+| **BU Reviewer** | `tunnel.lead@meil.com` | `brsr@2026` |
+| **Project Officer** | `metro.hse@meil.com` | `brsr@2026` |
