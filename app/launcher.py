@@ -12,8 +12,8 @@ def create_app():
     app = Flask(__name__, static_folder=None, template_folder=None)
     app.secret_key = APP_SECRET
     app.register_blueprint(api)
-    fr = os.path.join(os.path.dirname(os.path.dirname(
-        os.path.dirname(os.path.abspath(__file__)))), "frontend")
+    fr = os.path.join(os.path.dirname(
+        os.path.dirname(os.path.abspath(__file__))), "frontend")
 
     @app.route("/")
     def index():
